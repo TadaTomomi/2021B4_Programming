@@ -1,7 +1,7 @@
-import task1_1
+import task1_2
 
 def xor(x1, x2):
-  p_nand = task1_1.Perceptron(-0.5, -0.7, -0.7)
+  p_nand = task1_2.p_nand
   t1 = p_nand.forward(x1, x2)
   t2 = p_nand.forward(x1, t1)
   t3 = p_nand.forward(t1, x2)
